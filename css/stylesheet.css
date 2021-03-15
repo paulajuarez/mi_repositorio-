@@ -1,0 +1,221 @@
+@charset "UTF-8";
+* {
+  background-color: #000000; }
+
+/*Header*/
+/*Header*/
+header div {
+  background-color: #000000;
+  padding-top: 10px; }
+
+header img {
+  display: block;
+  width: 350px;
+  height: 80px;
+  margin: auto; }
+
+/*Barra de Navegación*/
+.nav {
+  background-color: #E4A4B7;
+  border: solid black 10px; }
+  .nav .nav-item {
+    background-color: #E4A4B7;
+    list-style: none; }
+  .nav .nav-link {
+    background-color: #E4A4B7;
+    padding: 15px 60px; }
+  .nav a {
+    color: #000000;
+    font-size: 20px; }
+  .nav a:hover {
+    background: #EBB6C5;
+    color: #000000; }
+
+/*Footer*/
+footer {
+  background-color: #000000;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #EBB6C5;
+  box-sizing: border-box; }
+
+.caja-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .caja-footer h3 {
+    font-size: 25px;
+    text-transform: capitalize; }
+  .caja-footer p {
+    max-width: 600px;
+    margin: 10px auto; }
+
+.redes-sociales {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .redes-sociales li {
+    margin: 0 10px; }
+  .redes-sociales a {
+    text-decoration: none;
+    color: #E4A4B7; }
+  .redes-sociales a:hover {
+    color: #f6eeee; }
+
+/*estilos del index*/
+#carousel {
+  display: flex;
+  height: auto; }
+
+.carousel-inner img {
+  display: block;
+  margin: auto; }
+
+.carousel-caption {
+  background-color: transparent; }
+  .carousel-caption h5 {
+    background-color: transparent; }
+  .carousel-caption p {
+    background-color: transparent;
+    font-size: xx-large; }
+
+/**Estilos de INTEGRANTES**/
+.introintegrantes {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px; }
+
+.titulointegrantes {
+  text-align: center;
+  color: #E4A4B7; }
+
+.text-center {
+  color: #E4A4B7; }
+
+/**Estilos de BLOG**/
+.bloquepyf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  padding: 5rem;
+  background-color: #E4A4B7; }
+  .bloquepyf .bloquepyf__imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px; }
+  .bloquepyf .bloquepyf__texto {
+    font-size: medium;
+    background-color: #E4A4B7; }
+  .bloquepyf .bloquepyf__pregunta {
+    background-color: #E4A4B7; }
+
+/**Estilos de MULTIMEDIA**/
+.multi-box {
+  height: 100px;
+  background-color: #E4A4B7; }
+  .multi-box p {
+    background-color: #E4A4B7;
+    color: #000000;
+    text-align: center;
+    margin: auto;
+    font-size: 25px; }
+
+.multir {
+  padding-bottom: 12px; }
+
+.multih {
+  background-color: #E4A4B7;
+  border-radius: 10px; }
+
+.multitransp {
+  background-color: transparent; }
+
+.img-text {
+  width: 100%;
+  height: 250px;
+  display: block;
+  text-align: center;
+  padding-top: 7%;
+  background: white;
+  color: #E4A4B7;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; }
+  .img-text h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: transparent; }
+  .img-text p {
+    font-size: 25px;
+    background: transparent; }
+
+.caja-multi {
+  position: relative;
+  margin: bottom 30px; }
+
+.img-area {
+  width: 100%;
+  height: 250px;
+  border-top: 15px solid white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; }
+  .img-area img {
+    width: 100%;
+    height: 250px; }
+
+.cuadrado1 {
+  background-color: #E4A4B7;
+  width: 400px;
+  height: 400px;
+  margin-top: 10px; }
+  .cuadrado1 p {
+    background-color: #E4A4B7;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    margin: auto; }
+
+.cuadrado2 {
+  background-color: #EBB6C5;
+  width: 400px;
+  height: 400px;
+  margin-top: 10px; }
+  .cuadrado2 p {
+    background-color: #EBB6C5;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    margin: auto; }
+
+.cuadrado3 {
+  background-color: #f6eeee;
+  width: 400px;
+  height: 400px;
+  margin-top: 10px; }
+  .cuadrado3 p {
+    background-color: #f6eeee;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    margin: auto; }
+
+/**Estilos de Galería**/
+.contenedor-galeria {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .contenedor-galeria img {
+    width: 25%;
+    margin: 10px;
+    height: 25%;
+    flex: auto;
+    padding: 20px;
+    background-color: white; }
